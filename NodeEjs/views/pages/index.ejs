@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <%- include('../partials/head'); %>
+
+    <body class="container">
+        <%- include('../partials/header', {pagina: 'Home'}); %>
+        <main>
+            <div class="jumbotron bg-light">
+                <h1>Node com EJS</h1>
+                <p>Vamos aprender a trabalhar com arquivos EJS</p>
+                <p><%= subtitle%> </p>
+            </div>
+
+            <ul>
+                <% msg.forEach( messages => { %>
+                <li>
+                    <strong><%=messages.title%></strong><%=messages.message%>
+                </li>
+                <% }) %>
+            </ul>
+
+        </main>
+        <%- include('../partials/footer'); %>
+    </body>
+</html>
