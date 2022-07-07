@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: purple;
+    color: white;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5px;
+}
+
+

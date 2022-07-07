@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    align-items: center;
+    background: #bbb;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+ul li:last-child {
+    background: lightblue;
+    padding: 0.8rem;
+    border-radius: 20px;
+}

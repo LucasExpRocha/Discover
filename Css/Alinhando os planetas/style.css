@@ -1,0 +1,16 @@
+* {margin: 0;}
+body{
+    min-height: 100vh;
+    display: flex;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    height: 8rem;
+    color: aliceblue;
+    background: grey;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
