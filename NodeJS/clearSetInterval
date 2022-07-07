@@ -1,0 +1,7 @@
+//serve para cancelar setinterval
+
+const timeOut = 3000
+const checking = () => console.log('checking!')
+
+let interval = setTimeout(checking, timeOut)
+clearInterval(interval)
